@@ -8,3 +8,4 @@ bot.on("ready", async () => {
 });
 
 bot.login(botconfig.token);
+bot.login(process.env.token);
